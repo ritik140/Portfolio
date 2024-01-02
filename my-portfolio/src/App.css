@@ -3,7 +3,23 @@
   padding: 0;
 }
 .main-content {
-  background-color: red;
+  background-color: rgb(223, 16, 16);
+  width: 280px;
+  height: 100vh;
+} 
+.box {
+  display: flex;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+p {
+  text-align: center;
+  padding: 5px;
 }
 .photo {
   width: 100px;
@@ -15,6 +31,7 @@
   width: 20px;
   height: 20px;
   list-style: none;
+  padding: 5px;
 }
 .connect li {
   list-style: none;
@@ -25,4 +42,13 @@
 .information li img {
   width: 20px;
   height: 20px;
+}
+.information {
+  list-style: none;
+  margin-top: 20px;
+}
+.information li {
+  padding: 10px;
+}
+.property {
 }
