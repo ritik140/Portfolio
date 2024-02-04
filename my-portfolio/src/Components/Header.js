@@ -9,6 +9,7 @@ import phone from "../photos/phone.png";
 import facebook from "../photos/007-facebook.png";
 import linkedin from "../photos/008-linkedin.png";
 import photo from "../photos/my-photo.jpg";
+import myimage from "../photos/big-image.jpg";
 const Header = () => {
   return (
     <>
@@ -60,8 +61,8 @@ const Header = () => {
             </ul>
           </div>
         </div>
-        <div>
-          <img src="" alt="BIG IMAGE" />
+        <div className="full-image">
+          <img id="myimage" src={myimage} alt="BIG IMAGE" />
           <h1>Ritik Raj</h1>
         </div>
       </div>
