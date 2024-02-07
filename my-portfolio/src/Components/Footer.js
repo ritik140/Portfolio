@@ -1,9 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import "../App.css";
 const Footer = () => {
   return (
-    <h1>Footer</h1>
-  )
-}
+    <>
+      <h1 className="footer">&copy; copyright Portfolio</h1>
+    </>
+  );
+};
 
 export default Footer;

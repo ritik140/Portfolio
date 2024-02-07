@@ -20,13 +20,22 @@ const Header = () => {
             <p>Ritik Raj</p>
             <ul className="connect">
               <li>
-                <img src={twitter} alt="twitter" />
+                <a
+                  href="https://twitter.com/?request_context=signup"
+                  target="_blank"
+                >
+                  <img src={twitter} alt="twitter" />
+                </a>
               </li>
               <li>
-                <img src={facebook} alt="facebook" />
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img src={facebook} alt="facebook" />
+                </a>
               </li>
               <li>
-                <img src={insta} alt="instagram" />
+                <a href="https://www.instagram.com/" target="_blank">
+                  <img src={insta} alt="instagram" />
+                </a>
               </li>
               <li>
                 <img src={insta} alt="Leetcode" />
@@ -40,30 +49,33 @@ const Header = () => {
             <ul className="information">
               <li>
                 <img src={home} alt="" />
-                Home
+                <a href="">Home</a>
               </li>
               <li>
                 <img src={info} alt="" />
-                About
+                <a href="">About</a>
               </li>
               <li>
                 <img src={info} alt="" />
-                Portfolio
+                <a href="">Portfolio</a>
               </li>
               <li>
                 <img src={service} alt="" />
-                Services
+                <a href="">Service</a>
               </li>
               <li>
                 <img src={phone} alt="" />
-                Contact
+                <a href="">Contact</a>
               </li>
             </ul>
           </div>
         </div>
         <div className="full-image">
           <img id="myimage" src={myimage} alt="BIG IMAGE" />
-          <h1>Ritik Raj</h1>
+          <div class="text-overlay1">Ritik Raj</div>
+          <div class="text-overlay2">
+            I am <span>Developer</span>
+          </div>
         </div>
       </div>
     </>
